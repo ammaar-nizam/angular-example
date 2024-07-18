@@ -5,6 +5,7 @@ This project is an assignment to test the Angular knowledge
 ## Acknowledgment
 
 YouTube Tutorial - https://www.youtube.com/watch?v=4mKY_yDq64g
+
 Angular Material UI Documentation - https://material.angular.io/components/categories
 
 ## How to run
