@@ -1,4 +1,4 @@
-## Design and develop a webpage similar to the attached interface using HTML, CSS, JavaScript, Angular and JSON Server
+## Designed and developed a webpage using HTML, CSS, JavaScript, Angular and JSON Server to test out CRUD functions
 
 This project is an assignment to test the Angular knowledge
 
