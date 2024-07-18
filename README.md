@@ -10,7 +10,9 @@ Angular Material UI Documentation - https://material.angular.io/components/categ
 ## How to run
 
 Clone this repo and open with any code editor.
+
 Run `ng serve` for a development server. Navigate to `http://localhost:4200/` for the application.
+
 Run `json-server --watch db.json` in another terminal to start the mock json server. The RESTful API is http://localhost:3000/deals
 
 ## Angular Version 
