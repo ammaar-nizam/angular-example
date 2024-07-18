@@ -1,0 +1,74 @@
+<div mat-dialog-title>
+  <h1>Create New Deal</h1>
+</div>
+<form [formGroup]="dealForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content class="content">
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Deal Size</mat-label>
+        <input
+          matInput
+          type="text"
+          placeholder="e.g.: 1000, 2000"
+          formControlName="dealSize"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Deal Category</mat-label>
+        <mat-select formControlName="dealCategory">
+          <mat-option *ngFor="let val of category" [value]="val"
+            >{{ val }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Deal Employee</mat-label>
+        <input
+          matInput
+          type="text"
+          placeholder="e.g.: Dilshan"
+          formControlName="dealEmployee"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Deal Location</mat-label>
+        <mat-select formControlName="dealLocation">
+          <mat-option *ngFor="let val of location" [value]="val"
+            >{{ val }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Pipeline</mat-label>
+        <mat-select formControlName="pipeline">
+          <mat-option *ngFor="let val of pipeline" [value]="val"
+            >{{ val }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Stage</mat-label>
+        <mat-select formControlName="stage">
+          <mat-option *ngFor="let val of stage" [value]="val"
+            >{{ val }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+  </div>
+  <div mat-dialog-actions class="action">
+    <button mat-raised-button type="button" [mat-dialog-close]="false">
+      Cancel
+    </button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ data ? "Update" : "Save" }}
+    </button>
+  </div>
+</form>

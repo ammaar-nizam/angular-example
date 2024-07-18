@@ -1,0 +1,25 @@
+<app-toolbar></app-toolbar>
+
+<mat-drawer-container autosize>
+    <mat-drawer #drawer opened="true" mode="side" position="start">
+    <mat-nav-list>
+        <mat-list-item routerLinkActive="active-link">
+            <button routerLink="/dashboard" mat-button><mat-icon>dashboard</mat-icon> Dashboard</button>
+        </mat-list-item>
+        <mat-list-item routerLinkActive="active-link">
+            <button routerLink="/deals" mat-button><mat-icon>receipt</mat-icon> Deals</button>
+        </mat-list-item>
+        <mat-list-item routerLinkActive="active-link">
+            <button routerLink="/reports" mat-button><mat-icon>multiline_chart</mat-icon> Reports</button>
+        </mat-list-item>
+        <mat-list-item routerLinkActive="active-link">
+            <button routerLink="/config" mat-button><mat-icon>settings</mat-icon> Config</button>
+        </mat-list-item>
+    </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content>
+        <div style="text-align: center;min-height: 600px;">
+            <router-outlet></router-outlet>
+            </div>
+    </mat-drawer-content>
+</mat-drawer-container>

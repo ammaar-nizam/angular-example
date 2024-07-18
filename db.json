@@ -1,0 +1,111 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "deals": [
+    {
+      "id": "3eaa",
+      "dealSize": 1500,
+      "dealCategory": "Software Company",
+      "dealEmployee": "John Doe",
+      "dealLocation": "Melbourne, Australia",
+      "pipeline": "Quantum Pipeline",
+      "stage": "Proposal"
+    },
+    {
+      "id": "baf3",
+      "dealSize": 2500,
+      "dealCategory": "Food Delivering",
+      "dealEmployee": "Jane Smith",
+      "dealLocation": "Colombo 1, Sri Lanka",
+      "pipeline": "eZuite Sales",
+      "stage": "Research"
+    },
+    {
+      "id": "b881",
+      "dealSize": 3000,
+      "dealCategory": "Network",
+      "dealEmployee": "Peter Parker",
+      "dealLocation": "Rajagiriya, Sri Lanka",
+      "pipeline": "eZuite Development",
+      "stage": "Development"
+    },
+    {
+      "id": "ac97",
+      "dealSize": 4000,
+      "dealCategory": "Fitness Equipments",
+      "dealEmployee": "Bruce Wayne",
+      "dealLocation": "Melbourne, Australia",
+      "pipeline": "eZuite Purchase",
+      "stage": "Deployment"
+    },
+    {
+      "id": "ea2a",
+      "dealSize": 5000,
+      "dealCategory": "Hardware Company",
+      "dealEmployee": "Clark Kent",
+      "dealLocation": "Colombo 1, Sri Lanka",
+      "pipeline": "eZuite Sales",
+      "stage": "Testing"
+    },
+    {
+      "id": "3a02",
+      "dealSize": 3500,
+      "dealCategory": "Software Company",
+      "dealEmployee": "Diana Prince",
+      "dealLocation": "Rajagiriya, Sri Lanka",
+      "pipeline": "Quantum Pipeline",
+      "stage": "Demo"
+    },
+    {
+      "id": "af7c",
+      "dealSize": 4500,
+      "dealCategory": "Food Delivering",
+      "dealEmployee": "Barry Allen",
+      "dealLocation": "Melbourne, Australia",
+      "pipeline": "eZuite Development",
+      "stage": "Maintenance"
+    },
+    {
+      "id": "032c",
+      "dealSize": 2200,
+      "dealCategory": "Network",
+      "dealEmployee": "Hal Jordan",
+      "dealLocation": "Colombo 1, Sri Lanka",
+      "pipeline": "eZuite Purchase",
+      "stage": "Negotiation"
+    },
+    {
+      "id": "740a",
+      "dealSize": 1800,
+      "dealCategory": "Fitness Equipments",
+      "dealEmployee": "Arthur Curry",
+      "dealLocation": "Rajagiriya, Sri Lanka",
+      "pipeline": "eZuite Sales",
+      "stage": "Meeting"
+    },
+    {
+      "id": "0d72",
+      "dealSize": 3200,
+      "dealCategory": "Hardware Company",
+      "dealEmployee": "Victor Stone",
+      "dealLocation": "Melbourne, Australia",
+      "pipeline": "eZuite Development",
+      "stage": "Research"
+    }
+  ]
+}
