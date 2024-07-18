@@ -1,27 +1,24 @@
-# CrudApp
+## Design and develop a webpage similar to the attached interface using HTML, CSS, JavaScript, Angular and JSON Server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
+This project is an assignment to test the Angular knowledge
 
-## Development server
+## Acknowledgment
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+YouTube Tutorial - https://www.youtube.com/watch?v=4mKY_yDq64g
+Angular Material UI Documentation - https://material.angular.io/components/categories
 
-## Code scaffolding
+## How to run
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone this repo and open with any code editor.
+Run `ng serve` for a development server. Navigate to `http://localhost:4200/` for the application.
+Run `json-server --watch db.json` in another terminal to start the mock json server. The RESTful API is http://localhost:3000/deals
 
-## Build
+## Angular Version 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Version 15.0.1 (This can be updated to newer versions)
 
-## Running unit tests
+## Use
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Only for educational purposes. 
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
